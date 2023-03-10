@@ -23,7 +23,7 @@ public void doPost(HttpServletRequest request,HttpServletResponse response)throw
 	{
 		out.println("you are successfully logged in");
 		out.println("<br> welcome"+  u);
-		 
+		 out.println("hiii"+  u);
 		Cookie ck=new Cookie("user",u);
 		response.addCookie(ck);
 				
