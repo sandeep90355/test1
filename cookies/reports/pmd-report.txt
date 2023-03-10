@@ -1,0 +1,24 @@
+src/main/java/com/cookies/logout.java:5:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.sql.SQLException'
+src/main/java/com/cookies/logout.java:5:	UnusedImports:	UnusedImports: Unused import 'java.sql.SQLException'
+src/main/java/com/cookies/logout.java:12:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/cookies/logout.java:12:	ClassNamingConventions:	ClassNamingConventions: The class name 'logout' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/main/java/com/cookies/logout.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/cookies/logout.java:12:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/cookies/logout.java:18:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cookies/logout.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/com/cookies/logout.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'response' is not assigned and could be declared final
+src/main/java/com/cookies/logout.java:18:	MissingOverride:	MissingOverride: The method 'doPost(HttpServletRequest, HttpServletResponse)' is missing an @Override annotation.
+src/main/java/com/cookies/logout.java:20:	CloseResource:	CloseResource: Ensure that resources like this PrintWriter object are closed after use
+src/main/java/com/cookies/logout.java:20:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'out' could be declared final
+src/main/java/com/cookies/logout.java:21:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'u' (lines '18'-'34').
+src/main/java/com/cookies/logout.java:21:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'u' could be declared final
+src/main/java/com/cookies/logout.java:21:	ShortVariable:	ShortVariable: Avoid variables with short names like u
+src/main/java/com/cookies/logout.java:21:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'u'.
+src/main/java/com/cookies/logout.java:22:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'p' could be declared final
+src/main/java/com/cookies/logout.java:22:	ShortVariable:	ShortVariable: Avoid variables with short names like p
+src/main/java/com/cookies/logout.java:24:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cookies/logout.java:25:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cookies/logout.java:25:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/cookies/logout.java:25:	PositionLiteralsFirstInComparisons:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/cookies/logout.java:27:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ck' could be declared final
+src/main/java/com/cookies/logout.java:27:	ShortVariable:	ShortVariable: Avoid variables with short names like ck
